@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    
+</head>
+<body>
+    <div class= "cols">
+        <div class= "part1">            
+            <h1>أسامة الحاج</h1>
+        </div>
+        
+        <div class= "part2"> 
+            <div class="buttons" id="home">
+                <button type="button" onclick="document.location='index.html'">Home</button>
+            </div>
+            <div class="buttons" id="about me">
+                <button type="button" onclick="document.location='about.html'">About Me</button>
+            </div>
+            <div class="buttons" id="disabled">   
+                <button type="button" disabled>Skills</button>
+            </div>
+            <div class="buttons" id="experience">
+                <button type="button" onclick="document.location='experience.html'">Experience</button> 
+            </div>
+            <div class="buttons" id="hobbies">
+                <button type="button" onclick="document.location='hobbies.html'">Hobbies</button> 
+            </div>
+            <div class="buttons" id="contact">
+                <button type="button" onclick="document.location='contact.html'">Contact Me</button> 
+            </div>
+        </div>
+
+        <div class= "part3">    
+            <div class = "part3-1">
+                <h3>Hello,</h3>
+                <h2>I AM OSAMA ELHAJ, WEB DEVELOPER</h2>
+                <h3>Liverpool, UK</h3>
+                <br>
+                <br>
+                <a class= "btn_2" href="contact.html">Hire Me</a> 
+            </div>
+            
+            <div class="part3-2">
+                <img id = "profile-image" src ="images/profile image.png" alt ="main photo" height= 100% width=100%>
+            </div> 
+        </div>
+        
+        <div class= "part4">
+            <div class = "slideshow-container">
+                <div class="mySlides">
+                    <p class="pages">Team Oriented</p>
+                    <hr>
+                    <p>I am very team-oriented. I love collaborating with other people, and I used to work with cross cultured teams in all my previous work experience in the telecom field.</p>   
+                </div>
+                <div class="mySlides">
+                    <p class="pages">Problem Solving</p>
+                    <hr>
+                    <p>During my time as a field maintenance engineer, my most valuable skills were problem solving and creative thinking. I’m known for coming up with creative solutions to problems. </p>
+                </div>
+                <div class="mySlides">
+                    <p class="pages">Hard Worker</p>
+                    <hr>
+                    <p>One of my strengths is my strong work ethic. When I commit to a deadline, I do whatever it takes to deliver and achieve the target. </p>
+                </div>
+
+                  <!-- Next/prev buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+            </div>                 
+        </div>
+
+        <div class= "part5">
+            <a href="https://github.com/maryoud2000">
+                <img id="github" src="images/github.png" alt="github" width="25" height="25" > 
+            </a>
+            <a href="mailto:someone@example.com">
+            <img id= "email" src="images/gmail.png" alt="email" width="25" height="25">
+            </a>
+            <a href="https://www.linkedin.com/in/osama-h-m-elhaj/">
+            <img id= "linkedin" src="images/linkedin.png" alt="linkedin" width="25" height="25">
+            </a>
+        </div>
+    
+    </div>
+    <script src="scripts/portfolio.js"></script>
+</body>
+</html>
