@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>My Skills</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
     
 </head>
 <body>
-    <div class= "cols">
-        <div class= "part1">            
+    <div class= "pagesContainer">
+        <div class= "header">            
             <h1>أسامة الحاج</h1>
         </div>
         
-        <div class= "part2"> 
+        <div class= "navbar"> 
             <div class="buttons" id="home">
                 <button type="button" onclick="document.location='index.html'">Home</button>
             </div>
@@ -34,27 +34,44 @@
             </div>
         </div>
 
-        <div class= "part3">    
-            <div class = "part3-1">
+        <div class= "profileContent">    
+            <div class = "profileIntro">
                 <h3>Hello,</h3>
                 <h2>I AM OSAMA ELHAJ, WEB DEVELOPER</h2>
                 <h3>Liverpool, UK</h3>
                 <br>
                 <br>
-                <a class= "btn_2" href="contact.html">Hire Me</a> 
+                <a class= "hire-me-btn" href="contact.html">Hire Me</a>  
             </div>
-            
-            <div class="part3-2">
+            <div class="profileImage">
                 <img id = "profile-image" src ="images/profile image.png" alt ="main photo" height= 100% width=100%>
             </div> 
         </div>
         
-        <div class= "part4">
+        <div class= "pagesContent">
             <div class = "slideshow-container">
+                <div class="select">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                </div>
                 <div class="mySlides">
                     <p class="pages">Team Oriented</p>
                     <hr>
                     <p>I am very team-oriented. I love collaborating with other people, and I used to work with cross cultured teams in all my previous work experience in the telecom field.</p>   
+                </div>
+                <div class="mySlides">
+                    <p class="pages">Independence</p>
+                    <hr>
+                    <p>Comfortable working with minimal supervision and good at communicating progress.</p>
+                </div>
+                <div class="mySlides">
+                    <p class="pages">Time Management</p>
+                    <hr>
+                    <p>Able to produce results with quick turnarounds in a fast-paced and agile environment.</p>
+                </div>
+                <div class="mySlides">
+                    <p class="pages">Professional Development</p>
+                    <hr>
+                    <p>Driven to learn new things and grow as a developer and team member.</p>
                 </div>
                 <div class="mySlides">
                     <p class="pages">Problem Solving</p>
@@ -66,14 +83,18 @@
                     <hr>
                     <p>One of my strengths is my strong work ethic. When I commit to a deadline, I do whatever it takes to deliver and achieve the target. </p>
                 </div>
-
-                  <!-- Next/prev buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+                <div class="mySlides">
+                    <p class="pages">Tools & Languages</p>
+                    <hr>
+                    <p>Visual Studio Code, HTML, CSS, Java Script, Node.js, React, REST API's, Python, MySQL, Github, Trello, Figma, Agile.</p>
+                </div>
+                <div class="select">
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+                </div>
             </div>                 
         </div>
 
-        <div class= "part5">
+        <div class= "footer">
             <a href="https://github.com/maryoud2000">
                 <img id="github" src="images/github.png" alt="github" width="25" height="25" > 
             </a>
@@ -86,6 +107,6 @@
         </div>
     
     </div>
-    <script src="scripts/portfolio.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>

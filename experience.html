@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>My Experiences</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
     
 </head>
 <body>
-    <div class= "cols">
-        <div class= "part1">            
+    <div class= "pagesContainer">
+        <div class= "header">            
             <h1>أسامة الحاج</h1>
         </div>
         
-        <div class= "part2"> 
+        <div class= "navbar"> 
             <div class="buttons" id="home">
                 <button type="button" onclick="document.location='index.html'">Home</button>
             </div>
@@ -34,50 +34,49 @@
             </div>
         </div>
 
-        <div class= "part3">    
-            <div class = "part3-1">
+        <div class= "profileContent">    
+            <div class = "profileIntro">
                 <h3>Hello,</h3>
                 <h2>I AM OSAMA ELHAJ, WEB DEVELOPER</h2>
                 <h3>Liverpool, UK</h3>
                 <br>
                 <br>
-                <a class= "btn_2" href="contact.html">Hire Me</a> 
+                <a class= "hire-me-btn" href="contact.html">Hire Me</a>  
             </div>
-            
-            <div class="part3-2">
+            <div class="profileImage">
                 <img id = "profile-image" src ="images/profile image.png" alt ="main photo" height= 100% width=100%>
             </div> 
         </div>
         
-        <div class= "part4">
+        <div class= "pagesContent">
             <div class = "slideshow-container">
-                <!-- <h4>My Hobbies:</h4> --> 
-                <div class="mySlides">
-                    <p class="pages">Web Develper | The Code Nation, UK	(Oct 2021 - Till Now)</p>
-                    <p>- Web development with HTML, CSS and the fundamentals of coding with Python.</p>
-                    <p>- Work with professional tools like Visual Studio Code, Slack, GitHub, Trello and agile principles.</p>
-                    <p>- work with professional tools like Visual Studio Code, Slack, GitHub, Trello and agile principles.</p>
+                <div class="select">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 </div>
                 <div class="mySlides">
-                    <p class="pages">Field Maintenance Coordinator | Huawei Sudanese Technology Co, Sudan (Oct 2014 - Jan 2016)</p>
-                    <p>- Plans and directs field service activities to ensure accurate and timely responses to the customer.</p>
-                    <p>- Works with Marketing & Sales to ensure Field Service does their part to impact sales to meet budgets and desired sales objectives.</p>
-                    <p>- Builds relationships with customer by assisting and providing specific training for service-related activities.</p>
+                    <p class="pages">Code Nation, UK – April 22</p>
+                    <hr>
+                    <p>Fifteen week of web development full time training in HTML, CSS beside the fundamentals of programming with Java Scripts, Node.js, React and Python. Worked with professional tools like Visual Studio Code, Figma, GitHub, Trello and Agile principles.</p>
                 </div>
                 <div class="mySlides">
-                    <p class="pages">Telecom Support Engineer | ZTE Corporation, Sudan	(Oct 2011 - Oct 2014)</p>
-                    <p>- Coordinates internal and external field deployment team members, sets up and maintains clear and effective communication with the relevant project stakeholders.</p>
-                    <p>- Following the project installation materials and needs with the project stakeholders.</p>
-                    <p>- Preparing and sending rollout daily reports.</p>
+                    <p class="pages">Niya Network, UK – Oct 21</p>
+                    <hr>
+                    <p>Provided a range of personal skills and leadership trainings; leadership, problem solving, critical thinking, presentation, Agile and Scrum methodologies.</p>
                 </div>
-                
-                  <!-- Next/prev buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+                <div class="mySlides">
+                    <p class="pages">International Marketing Workshop at University of Applied Management Studies in Germany - May, 18</p>
+                    <hr>
+                    <p>Focusing on creating the best Social Media Marketing Strategy considering culture dimensions. Organised by:</p>
+                    <p>- University of Applied Management Studies</p>
+                    <p>- Liverpool John Moore's University.</p>
+                </div>
+                <div class="select">
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+                </div>
             </div>                 
         </div>
 
-        <div class= "part5">
+        <div class= "footer">
             <a href="https://github.com/maryoud2000">
                 <img id="github" src="images/github.png" alt="github" width="25" height="25" > 
             </a>
@@ -90,6 +89,6 @@
         </div>
     
     </div>
-    <script src="scripts/portfolio.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
